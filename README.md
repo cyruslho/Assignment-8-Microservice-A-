@@ -18,7 +18,7 @@ A Flask-based microservice that calculates calories, macronutrients, and micronu
 **Content-Type**: `application/json`
 
 Request Format
-
+```
 {
   "ingredients": [
     "1 cup rice",
@@ -26,8 +26,9 @@ Request Format
     "100g chicken breast"
   ]
 }
+```
 Example Python Call
-python
+```
 import requests
 
 response = requests.post(
@@ -40,8 +41,10 @@ response = requests.post(
     }
 )
 print(response.json())
+```
 How to RECEIVE Data
 Response Format
+```
 {
   "calories": 598.6,
   "macronutrients": {
@@ -62,14 +65,16 @@ Response Format
   ],
   "skipped_ingredients": ["invalid item"]
 }
+```
 Response Handling Example
-
+```
 if response.status_code == 200:
     data = response.json()
     print(f"Total Calories: {data['calories']}")
     print(f"Protein: {data['macronutrients']['protein']}g")
 else:
     print(f"Error: HTTP {response.status_code}")
+```
 <img width="798" height="509" alt="image" src="https://github.com/user-attachments/assets/5c00a043-b18c-49b6-b40a-384a120ddfdc" />
 
 Setup & Usage
