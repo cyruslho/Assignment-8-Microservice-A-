@@ -70,6 +70,7 @@ if response.status_code == 200:
     print(f"Protein: {data['macronutrients']['protein']}g")
 else:
     print(f"Error: HTTP {response.status_code}")
+<img width="798" height="509" alt="image" src="https://github.com/user-attachments/assets/5c00a043-b18c-49b6-b40a-384a120ddfdc" />
 
 Setup & Usage
 Install Dependencies:
