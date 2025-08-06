@@ -109,7 +109,7 @@ Python 3.7+
 Packages: flask, requests (see requirements.txt)
 
 ### Key Features of This README:
-1. **Visual Hierarchy**: Icons (🍽️📊) and headers break up sections
+1. **Visual Hierarchy**: headers break up sections
 2. **Copy-Paste Ready**: Fully functional code examples
 3. **Mermaid Diagram**: Embedded UML sequence diagram
 4. **Teammate-Focused**: Clear integration instructions
