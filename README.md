@@ -17,7 +17,7 @@ A Flask-based microservice that calculates calories, macronutrients, and micronu
 **URL**: `http://localhost:5000/analyze-nutrition`  
 **Content-Type**: `application/json`
 
-#### Request Format
+Request Format
 ```
 {
   "ingredients": [
