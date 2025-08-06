@@ -18,7 +18,7 @@ A Flask-based microservice that calculates calories, macronutrients, and micronu
 **Content-Type**: `application/json`
 
 Request Format
-```
+
 {
   "ingredients": [
     "1 cup rice",
