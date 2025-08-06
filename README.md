@@ -93,7 +93,6 @@ curl -X POST http://localhost:5000/analyze-nutrition \
   -H "Content-Type: application/json" \
   -d '{"ingredients": ["1 cup rice", "2 eggs"]}'
 Mitigation Plan
-For Teammate: [Teammate's Name]
 
 Status: Fully implemented and tested
 
